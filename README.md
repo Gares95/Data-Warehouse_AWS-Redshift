@@ -2,7 +2,7 @@
 ***
 This project includes files to create and define tables for a database with a star schema by data modeling, and also to build an ETL pipeline for a database in Redshift.
 
-This repository simulates the creation of an ETL pipeline for a music streaming startup whose data resides in S3 and want to transfrom it into a set of dimensional tables for their analytics team. 
+This repository simulates the creation of an ETL pipeline for a music streaming startup whose data resides in S3 and want to transform it into a set of dimensional tables for their analytics team. 
 
 The data is extracted from JSON logs in S3 buckets in AWS where the clients have been loading all the information they've collected over some time. This data will be processed to allow the clients to **analyze** and to **extract new relevant information** which can help their decision-making process on future options regarding marketing, store availability...  
 Having this information available with queries is a powerful tool that will give the client plenty of flexibility.
